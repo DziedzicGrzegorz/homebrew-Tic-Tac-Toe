@@ -5,12 +5,12 @@
 class Dziedzicgrzegorz < Formula
   desc ""
   homepage "https://github.com/DziedzicGrzegorz/Tic-Tac-Toe"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/DziedzicGrzegorz/Tic-Tac-Toe/releases/download/v0.1.0/Tic-Tac-Toe_0.1.0_darwin_all.tar.gz"
-    sha256 "35a8efdfaa4b3dde83967539d9e9c3a653e14c5ed63c5aac8f0f6bc59291eb3c"
+    url "https://github.com/DziedzicGrzegorz/Tic-Tac-Toe/releases/download/v0.2.0/Tic-Tac-Toe_0.2.0_darwin_all.tar.gz"
+    sha256 "395e167a87dfda4ee04d2620a9f997d91f4190cc95b3215bd00000f2b2d5257d"
 
     def install
       bin.install "Tic-Tac-Toe"
@@ -20,8 +20,8 @@ class Dziedzicgrzegorz < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/DziedzicGrzegorz/Tic-Tac-Toe/releases/download/v0.1.0/Tic-Tac-Toe_0.1.0_linux_amd64.tar.gz"
-        sha256 "f586ea3cf3c50204316d4bc356c278224591c82070fdc45733d9bb31ee3e6046"
+        url "https://github.com/DziedzicGrzegorz/Tic-Tac-Toe/releases/download/v0.2.0/Tic-Tac-Toe_0.2.0_linux_amd64.tar.gz"
+        sha256 "83fcd898bc4da5b321456adbc1f8633b66f1b6002d7313da7f76d9f927f018b8"
 
         def install
           bin.install "Tic-Tac-Toe"
@@ -30,8 +30,8 @@ class Dziedzicgrzegorz < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/DziedzicGrzegorz/Tic-Tac-Toe/releases/download/v0.1.0/Tic-Tac-Toe_0.1.0_linux_arm64.tar.gz"
-        sha256 "8e99d5c45cc9c775b7e8a0005922e08b66aff4bf66839e52873a6def01973c69"
+        url "https://github.com/DziedzicGrzegorz/Tic-Tac-Toe/releases/download/v0.2.0/Tic-Tac-Toe_0.2.0_linux_arm64.tar.gz"
+        sha256 "c470748750c84dc0978b83e9ef2b6a4c9483fec49c4cb460f76fa1cced8b3c7d"
 
         def install
           bin.install "Tic-Tac-Toe"
